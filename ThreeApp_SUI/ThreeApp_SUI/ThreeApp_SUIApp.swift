@@ -1,7 +1,5 @@
-//
 //  ThreeApp_SUIApp.swift
 //  ThreeApp_SUI
-//
 
 
 import SwiftUI
