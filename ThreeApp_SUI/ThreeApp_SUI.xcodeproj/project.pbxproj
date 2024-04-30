@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		93D5BFED2BDFA47C00DA0492 /* ThreeApp_SUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D5BFEC2BDFA47C00DA0492 /* ThreeApp_SUIApp.swift */; };
-		93D5BFEF2BDFA47C00DA0492 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D5BFEE2BDFA47C00DA0492 /* ContentView.swift */; };
+		93D5BFEF2BDFA47C00DA0492 /* CardContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D5BFEE2BDFA47C00DA0492 /* CardContentView.swift */; };
 		93D5BFF12BDFA47E00DA0492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D5BFF02BDFA47E00DA0492 /* Assets.xcassets */; };
 		93D5BFF42BDFA47E00DA0492 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D5BFF32BDFA47E00DA0492 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93AB8D5D2BE03E53003463B2 /* ThreeApp-SUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ThreeApp-SUI-Info.plist"; sourceTree = SOURCE_ROOT; };
 		93D5BFE92BDFA47C00DA0492 /* ThreeApp_SUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeApp_SUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D5BFEC2BDFA47C00DA0492 /* ThreeApp_SUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeApp_SUIApp.swift; sourceTree = "<group>"; };
-		93D5BFEE2BDFA47C00DA0492 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93D5BFEE2BDFA47C00DA0492 /* CardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContentView.swift; sourceTree = "<group>"; };
 		93D5BFF02BDFA47E00DA0492 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93D5BFF32BDFA47E00DA0492 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +52,9 @@
 		93D5BFEB2BDFA47C00DA0492 /* ThreeApp_SUI */ = {
 			isa = PBXGroup;
 			children = (
+				93AB8D5D2BE03E53003463B2 /* ThreeApp-SUI-Info.plist */,
 				93D5BFEC2BDFA47C00DA0492 /* ThreeApp_SUIApp.swift */,
-				93D5BFEE2BDFA47C00DA0492 /* ContentView.swift */,
+				93D5BFEE2BDFA47C00DA0492 /* CardContentView.swift */,
 				93D5BFF02BDFA47E00DA0492 /* Assets.xcassets */,
 				93D5BFF22BDFA47E00DA0492 /* Preview Content */,
 			);
@@ -137,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93D5BFEF2BDFA47C00DA0492 /* ContentView.swift in Sources */,
+				93D5BFEF2BDFA47C00DA0492 /* CardContentView.swift in Sources */,
 				93D5BFED2BDFA47C00DA0492 /* ThreeApp_SUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +276,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ThreeApp_SUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ThreeApp-SUI-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -303,6 +307,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ThreeApp_SUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ThreeApp-SUI-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
