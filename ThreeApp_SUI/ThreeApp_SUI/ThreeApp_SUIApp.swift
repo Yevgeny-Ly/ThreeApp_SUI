@@ -8,7 +8,7 @@ import SwiftUI
 struct ThreeApp_SUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SettingsContentView()
         }
     }
 }
