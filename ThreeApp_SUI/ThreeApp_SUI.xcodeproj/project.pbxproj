@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93AB8D552BDFD82D003463B2 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93AB8D532BDFD82D003463B2 /* Inter-Bold.ttf */; };
+		93AB8D562BDFD82D003463B2 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93AB8D542BDFD82D003463B2 /* Inter-Regular.ttf */; };
 		93D5BFED2BDFA47C00DA0492 /* ThreeApp_SUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D5BFEC2BDFA47C00DA0492 /* ThreeApp_SUIApp.swift */; };
 		93D5BFEF2BDFA47C00DA0492 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D5BFEE2BDFA47C00DA0492 /* ContentView.swift */; };
 		93D5BFF12BDFA47E00DA0492 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D5BFF02BDFA47E00DA0492 /* Assets.xcassets */; };
@@ -14,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93AB8D532BDFD82D003463B2 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		93AB8D542BDFD82D003463B2 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		93AB8D572BDFD854003463B2 /* ThreeApp-SUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ThreeApp-SUI-Info.plist"; sourceTree = SOURCE_ROOT; };
 		93D5BFE92BDFA47C00DA0492 /* ThreeApp_SUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeApp_SUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D5BFEC2BDFA47C00DA0492 /* ThreeApp_SUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeApp_SUIApp.swift; sourceTree = "<group>"; };
 		93D5BFEE2BDFA47C00DA0492 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +37,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93AB8D522BDFD7E5003463B2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				93AB8D532BDFD82D003463B2 /* Inter-Bold.ttf */,
+				93AB8D542BDFD82D003463B2 /* Inter-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		93D5BFE02BDFA47C00DA0492 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +65,11 @@
 		93D5BFEB2BDFA47C00DA0492 /* ThreeApp_SUI */ = {
 			isa = PBXGroup;
 			children = (
+				93AB8D572BDFD854003463B2 /* ThreeApp-SUI-Info.plist */,
 				93D5BFEC2BDFA47C00DA0492 /* ThreeApp_SUIApp.swift */,
 				93D5BFEE2BDFA47C00DA0492 /* ContentView.swift */,
 				93D5BFF02BDFA47E00DA0492 /* Assets.xcassets */,
+				93AB8D522BDFD7E5003463B2 /* Fonts */,
 				93D5BFF22BDFA47E00DA0492 /* Preview Content */,
 			);
 			path = ThreeApp_SUI;
@@ -125,7 +141,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93AB8D552BDFD82D003463B2 /* Inter-Bold.ttf in Resources */,
 				93D5BFF42BDFA47E00DA0492 /* Preview Assets.xcassets in Resources */,
+				93AB8D562BDFD82D003463B2 /* Inter-Regular.ttf in Resources */,
 				93D5BFF12BDFA47E00DA0492 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +292,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ThreeApp_SUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ThreeApp-SUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -303,6 +322,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ThreeApp_SUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ThreeApp-SUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
